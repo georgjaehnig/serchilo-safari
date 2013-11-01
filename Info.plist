@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Georg Jaehnig</string>
+	<key>Builder Version</key>
+	<string>7536.30.1</string>
+	<key>CFBundleDisplayName</key>
+	<string>serchilo</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.serchilo</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>global.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+	</dict>
+	<key>Description</key>
+	<string>Use Serchilo.net within Safari address bar.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Level</key>
+			<string>None</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://www.serchilo.net/sites/default/files/app/safari/update.plist</string>
+	<key>Website</key>
+	<string>http://www.serchilo.net/app/safari</string>
+</dict>
+</plist>

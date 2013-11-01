@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<string>n</string>
+		<key>Key</key>
+		<string>usage_type</string>
+		<key>Title</key>
+		<string>Use Serchilo</string>
+		<key>Titles</key>
+		<array>
+			<string>without a user account</string>
+			<string>with a user account</string>
+		</array>
+		<key>Type</key>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<string>n</string>
+			<string>u</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Settings when using without a user account</string>
+		<key>Type</key>
+		<string>Group</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>en</string>
+		<key>Key</key>
+		<string>language_namespace</string>
+		<key>Title</key>
+		<string>Language namespace</string>
+		<key>Titles</key>
+		<array>
+			<string>Abkhazian</string>
+			<string>Afar</string>
+			<string>Afrikaans</string>
+			<string>Akan</string>
+			<string>Albanian</string>
+			<string>Amharic</string>
+			<string>Arabic</string>
+			<string>Armenian</string>
+			<string>Assamese</string>
+			<string>Avar</string>
+			<string>Avestan</string>
+			<string>Aymara</string>
+			<string>Azerbaijani</string>
+			<string>Bambara</string>
+			<string>Bashkir</string>
+			<string>Basque</string>
+			<string>Belarusian</string>
+			<string>Bengali</string>
+			<string>Bhutani</string>
+			<string>Bihari</string>
+			<string>Bislama</string>
+			<string>Bosnian</string>
+			<string>Breton</string>
+			<string>Bulgarian</string>
+			<string>Burmese</string>
+			<string>Cambodian</string>
+			<string>Catalan</string>
+			<string>Chamorro</string>
+			<string>Chechen</string>
+			<string>Chichewa</string>
+			<string>Chuvash</string>
+			<string>Cornish</string>
+			<string>Corsican</string>
+			<string>Cree</string>
+			<string>Croatian</string>
+			<string>Czech</string>
+			<string>Danish</string>
+			<string>Dutch</string>
+			<string>English</string>
+			<string>Esperanto</string>
+			<string>Estonian</string>
+			<string>Ewe</string>
+			<string>Faeroese</string>
+			<string>Fiji</string>
+			<string>Finnish</string>
+			<string>French</string>
+			<string>Frisian</string>
+			<string>Fulah</string>
+			<string>Galician</string>
+			<string>Georgian</string>
+			<string>German</string>
+			<string>Greek</string>
+			<string>Greenlandic</string>
+			<string>Guarani</string>
+			<string>Gujarati</string>
+			<string>Haitian Creole</string>
+			<string>Hausa</string>
+			<string>Hebrew</string>
+			<string>Herero</string>
+			<string>Hindi</string>
+			<string>Hiri Motu</string>
+			<string>Hungarian</string>
+			<string>Icelandic</string>
+			<string>Igbo</string>
+			<string>Indonesian</string>
+			<string>Interlingua</string>
+			<string>Interlingue</string>
+			<string>Inuktitut</string>
+			<string>Inupiak</string>
+			<string>Irish</string>
+			<string>Italian</string>
+			<string>Japanese</string>
+			<string>Javanese</string>
+			<string>Kannada</string>
+			<string>Kanuri</string>
+			<string>Kashmiri</string>
+			<string>Kazakh</string>
+			<string>Kikuyu</string>
+			<string>Kinyarwanda</string>
+			<string>Kirundi</string>
+			<string>Komi</string>
+			<string>Kongo</string>
+			<string>Korean</string>
+			<string>Kurdish</string>
+			<string>Kwanyama</string>
+			<string>Kyrgyz</string>
+			<string>Laothian</string>
+			<string>Latin</string>
+			<string>Latvian</string>
+			<string>Lingala</string>
+			<string>Lithuanian</string>
+			<string>Luganda</string>
+			<string>Luxembourgish</string>
+			<string>Macedonian</string>
+			<string>Malagasy</string>
+			<string>Malay</string>
+			<string>Malayalam</string>
+			<string>Maldivian</string>
+			<string>Maltese</string>
+			<string>Manx</string>
+			<string>Marathi</string>
+			<string>Marshallese</string>
+			<string>Moldavian</string>
+			<string>Mongolian</string>
+			<string>Māori</string>
+			<string>Nauru</string>
+			<string>Navajo</string>
+			<string>Ndonga</string>
+			<string>Nepali</string>
+			<string>North Ndebele</string>
+			<string>Northern Sami</string>
+			<string>Norwegian Bokmål</string>
+			<string>Norwegian Nynorsk</string>
+			<string>Occitan</string>
+			<string>Old Slavonic</string>
+			<string>Oriya</string>
+			<string>Oromo</string>
+			<string>Ossetian</string>
+			<string>Pali</string>
+			<string>Pashto</string>
+			<string>Persian</string>
+			<string>Polish</string>
+			<string>Portuguese</string>
+			<string>Punjabi</string>
+			<string>Quechua</string>
+			<string>Rhaeto-Romance</string>
+			<string>Romanian</string>
+			<string>Russian</string>
+			<string>Samoan</string>
+			<string>Sango</string>
+			<string>Sanskrit</string>
+			<string>Sardinian</string>
+			<string>Scots Gaelic</string>
+			<string>Serbian</string>
+			<string>Serbo-Croatian</string>
+			<string>Sesotho</string>
+			<string>Setswana</string>
+			<string>Shona</string>
+			<string>Sindhi</string>
+			<string>Sinhala</string>
+			<string>Siswati</string>
+			<string>Slovak</string>
+			<string>Slovenian</string>
+			<string>Somali</string>
+			<string>South Ndebele</string>
+			<string>Spanish</string>
+			<string>Sudanese</string>
+			<string>Swahili</string>
+			<string>Swedish</string>
+			<string>Tagalog</string>
+			<string>Tahitian</string>
+			<string>Tajik</string>
+			<string>Tamil</string>
+			<string>Tatar</string>
+			<string>Telugu</string>
+			<string>Thai</string>
+			<string>Tibetan</string>
+			<string>Tigrinya</string>
+			<string>Tonga</string>
+			<string>Tsonga</string>
+			<string>Turkish</string>
+			<string>Turkmen</string>
+			<string>Twi</string>
+			<string>Uighur</string>
+			<string>Ukrainian</string>
+			<string>Urdu</string>
+			<string>Uzbek</string>
+			<string>Venda</string>
+			<string>Vietnamese</string>
+			<string>Welsh</string>
+			<string>Wolof</string>
+			<string>Xhosa</string>
+			<string>Yiddish</string>
+			<string>Yoruba</string>
+			<string>Zhuang</string>
+			<string>Zulu</string>
+		</array>
+		<key>Type</key>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<string>ab</string>
+			<string>aa</string>
+			<string>af</string>
+			<string>ak</string>
+			<string>sq</string>
+			<string>am</string>
+			<string>ar</string>
+			<string>hy</string>
+			<string>as</string>
+			<string>av</string>
+			<string>ae</string>
+			<string>ay</string>
+			<string>az</string>
+			<string>bm</string>
+			<string>ba</string>
+			<string>eu</string>
+			<string>be</string>
+			<string>bn</string>
+			<string>dz</string>
+			<string>bh</string>
+			<string>bi</string>
+			<string>bs</string>
+			<string>br</string>
+			<string>bg</string>
+			<string>my</string>
+			<string>km</string>
+			<string>ca</string>
+			<string>ch</string>
+			<string>ce</string>
+			<string>ny</string>
+			<string>cv</string>
+			<string>kw</string>
+			<string>co</string>
+			<string>cr</string>
+			<string>hr</string>
+			<string>cs</string>
+			<string>da</string>
+			<string>nl</string>
+			<string>en</string>
+			<string>eo</string>
+			<string>et</string>
+			<string>ee</string>
+			<string>fo</string>
+			<string>fj</string>
+			<string>fi</string>
+			<string>fr</string>
+			<string>fy</string>
+			<string>ff</string>
+			<string>gl</string>
+			<string>ka</string>
+			<string>de</string>
+			<string>el</string>
+			<string>kl</string>
+			<string>gn</string>
+			<string>gu</string>
+			<string>ht</string>
+			<string>ha</string>
+			<string>he</string>
+			<string>hz</string>
+			<string>hi</string>
+			<string>ho</string>
+			<string>hu</string>
+			<string>is</string>
+			<string>ig</string>
+			<string>id</string>
+			<string>ia</string>
+			<string>ie</string>
+			<string>iu</string>
+			<string>ik</string>
+			<string>ga</string>
+			<string>it</string>
+			<string>ja</string>
+			<string>jv</string>
+			<string>kn</string>
+			<string>kr</string>
+			<string>ks</string>
+			<string>kk</string>
+			<string>ki</string>
+			<string>rw</string>
+			<string>rn</string>
+			<string>kv</string>
+			<string>kg</string>
+			<string>ko</string>
+			<string>ku</string>
+			<string>kj</string>
+			<string>ky</string>
+			<string>lo</string>
+			<string>la</string>
+			<string>lv</string>
+			<string>ln</string>
+			<string>lt</string>
+			<string>lg</string>
+			<string>lb</string>
+			<string>mk</string>
+			<string>mg</string>
+			<string>ms</string>
+			<string>ml</string>
+			<string>dv</string>
+			<string>mt</string>
+			<string>gv</string>
+			<string>mr</string>
+			<string>mh</string>
+			<string>mo</string>
+			<string>mn</string>
+			<string>mi</string>
+			<string>na</string>
+			<string>nv</string>
+			<string>ng</string>
+			<string>ne</string>
+			<string>nd</string>
+			<string>se</string>
+			<string>nb</string>
+			<string>nn</string>
+			<string>oc</string>
+			<string>cu</string>
+			<string>or</string>
+			<string>om</string>
+			<string>os</string>
+			<string>pi</string>
+			<string>ps</string>
+			<string>fa</string>
+			<string>pl</string>
+			<string>pt</string>
+			<string>pa</string>
+			<string>qu</string>
+			<string>rm</string>
+			<string>ro</string>
+			<string>ru</string>
+			<string>sm</string>
+			<string>sg</string>
+			<string>sa</string>
+			<string>sc</string>
+			<string>gd</string>
+			<string>sr</string>
+			<string>sh</string>
+			<string>st</string>
+			<string>tn</string>
+			<string>sn</string>
+			<string>sd</string>
+			<string>si</string>
+			<string>ss</string>
+			<string>sk</string>
+			<string>sl</string>
+			<string>so</string>
+			<string>nr</string>
+			<string>es</string>
+			<string>su</string>
+			<string>sw</string>
+			<string>sv</string>
+			<string>tl</string>
+			<string>ty</string>
+			<string>tg</string>
+			<string>ta</string>
+			<string>tt</string>
+			<string>te</string>
+			<string>th</string>
+			<string>bo</string>
+			<string>ti</string>
+			<string>to</string>
+			<string>ts</string>
+			<string>tr</string>
+			<string>tk</string>
+			<string>tw</string>
+			<string>ug</string>
+			<string>uk</string>
+			<string>ur</string>
+			<string>uz</string>
+			<string>ve</string>
+			<string>vi</string>
+			<string>cy</string>
+			<string>wo</string>
+			<string>xh</string>
+			<string>yi</string>
+			<string>yo</string>
+			<string>za</string>
+			<string>zu</string>
+		</array>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>usa</string>
+		<key>Key</key>
+		<string>country_namespace</string>
+		<key>Title</key>
+		<string>Country namespace</string>
+		<key>Titles</key>
+		<array>
+			<string>Afghanistan</string>
+			<string>Albania</string>
+			<string>Algeria</string>
+			<string>American Samoa</string>
+			<string>Andorra</string>
+			<string>Angola</string>
+			<string>Anguilla</string>
+			<string>Antarctica</string>
+			<string>Antigua and Barbuda</string>
+			<string>Argentina</string>
+			<string>Armenia</string>
+			<string>Aruba</string>
+			<string>Australia</string>
+			<string>Austria</string>
+			<string>Azerbaijan</string>
+			<string>Bahamas</string>
+			<string>Bahrain</string>
+			<string>Bangladesh</string>
+			<string>Barbados</string>
+			<string>Belarus</string>
+			<string>Belgium</string>
+			<string>Belize</string>
+			<string>Benin</string>
+			<string>Bermuda</string>
+			<string>Bhutan</string>
+			<string>Bolivia, Plurinational State of</string>
+			<string>Bonaire, Sint Eustatius and Saba</string>
+			<string>Bosnia and Herzegovina</string>
+			<string>Botswana</string>
+			<string>Bouvet Island</string>
+			<string>Brazil</string>
+			<string>British Indian Ocean Territory</string>
+			<string>Brunei Darussalam</string>
+			<string>Bulgaria</string>
+			<string>Burkina Faso</string>
+			<string>Burundi</string>
+			<string>Cambodia</string>
+			<string>Cameroon</string>
+			<string>Canada</string>
+			<string>Cape Verde</string>
+			<string>Cayman Islands</string>
+			<string>Central African Republic</string>
+			<string>Chad</string>
+			<string>Chile</string>
+			<string>China</string>
+			<string>Christmas Island</string>
+			<string>Cocos (Keeling) Islands</string>
+			<string>Colombia</string>
+			<string>Comoros</string>
+			<string>Congo</string>
+			<string>Congo, the Democratic Republic of the</string>
+			<string>Cook Islands</string>
+			<string>Costa Rica</string>
+			<string>Croatia</string>
+			<string>Cuba</string>
+			<string>Curaçao</string>
+			<string>Cyprus</string>
+			<string>Czech Republic</string>
+			<string>Côte d'Ivoire</string>
+			<string>Denmark</string>
+			<string>Djibouti</string>
+			<string>Dominica</string>
+			<string>Dominican Republic</string>
+			<string>Ecuador</string>
+			<string>Egypt</string>
+			<string>El Salvador</string>
+			<string>Equatorial Guinea</string>
+			<string>Eritrea</string>
+			<string>Estonia</string>
+			<string>Ethiopia</string>
+			<string>Falkland Islands (Malvinas)</string>
+			<string>Faroe Islands</string>
+			<string>Fiji</string>
+			<string>Finland</string>
+			<string>France</string>
+			<string>French Guiana</string>
+			<string>French Polynesia</string>
+			<string>French Southern Territories</string>
+			<string>Gabon</string>
+			<string>Gambia</string>
+			<string>Georgia</string>
+			<string>Germany</string>
+			<string>Ghana</string>
+			<string>Gibraltar</string>
+			<string>Greece</string>
+			<string>Greenland</string>
+			<string>Grenada</string>
+			<string>Guadeloupe</string>
+			<string>Guam</string>
+			<string>Guatemala</string>
+			<string>Guernsey</string>
+			<string>Guinea</string>
+			<string>Guinea-Bissau</string>
+			<string>Guyana</string>
+			<string>Haiti</string>
+			<string>Heard Island and McDonald Islands</string>
+			<string>Holy See (Vatican City State)</string>
+			<string>Honduras</string>
+			<string>Hong Kong</string>
+			<string>Hungary</string>
+			<string>Iceland</string>
+			<string>India</string>
+			<string>Indonesia</string>
+			<string>Iran, Islamic Republic of</string>
+			<string>Iraq</string>
+			<string>Ireland</string>
+			<string>Isle of Man</string>
+			<string>Israel</string>
+			<string>Italy</string>
+			<string>Jamaica</string>
+			<string>Japan</string>
+			<string>Jersey</string>
+			<string>Jordan</string>
+			<string>Kazakhstan</string>
+			<string>Kenya</string>
+			<string>Kiribati</string>
+			<string>Korea, Democratic People's Republic of</string>
+			<string>Korea, Republic of</string>
+			<string>Kuwait</string>
+			<string>Kyrgyzstan</string>
+			<string>Lao People's Democratic Republic</string>
+			<string>Latvia</string>
+			<string>Lebanon</string>
+			<string>Lesotho</string>
+			<string>Liberia</string>
+			<string>Libya</string>
+			<string>Liechtenstein</string>
+			<string>Lithuania</string>
+			<string>Luxembourg</string>
+			<string>Macao</string>
+			<string>Macedonia, the former Yugoslav Republic of</string>
+			<string>Madagascar</string>
+			<string>Malawi</string>
+			<string>Malaysia</string>
+			<string>Maldives</string>
+			<string>Mali</string>
+			<string>Malta</string>
+			<string>Marshall Islands</string>
+			<string>Martinique</string>
+			<string>Mauritania</string>
+			<string>Mauritius</string>
+			<string>Mayotte</string>
+			<string>Mexico</string>
+			<string>Micronesia, Federated States of</string>
+			<string>Moldova, Republic of</string>
+			<string>Monaco</string>
+			<string>Mongolia</string>
+			<string>Montenegro</string>
+			<string>Montserrat</string>
+			<string>Morocco</string>
+			<string>Mozambique</string>
+			<string>Myanmar</string>
+			<string>Namibia</string>
+			<string>Nauru</string>
+			<string>Nepal</string>
+			<string>Netherlands</string>
+			<string>New Caledonia</string>
+			<string>New Zealand</string>
+			<string>Nicaragua</string>
+			<string>Niger</string>
+			<string>Nigeria</string>
+			<string>Niue</string>
+			<string>Norfolk Island</string>
+			<string>Northern Mariana Islands</string>
+			<string>Norway</string>
+			<string>Oman</string>
+			<string>Pakistan</string>
+			<string>Palau</string>
+			<string>Palestinian Territory, Occupied</string>
+			<string>Panama</string>
+			<string>Papua New Guinea</string>
+			<string>Paraguay</string>
+			<string>Peru</string>
+			<string>Philippines</string>
+			<string>Pitcairn</string>
+			<string>Poland</string>
+			<string>Portugal</string>
+			<string>Puerto Rico</string>
+			<string>Qatar</string>
+			<string>Romania</string>
+			<string>Russian Federation</string>
+			<string>Rwanda</string>
+			<string>Réunion</string>
+			<string>Saint Barthélemy</string>
+			<string>Saint Helena, Ascension and Tristan da Cunha</string>
+			<string>Saint Kitts and Nevis</string>
+			<string>Saint Lucia</string>
+			<string>Saint Martin (French part)</string>
+			<string>Saint Pierre and Miquelon</string>
+			<string>Saint Vincent and the Grenadines</string>
+			<string>Samoa</string>
+			<string>San Marino</string>
+			<string>Sao Tome and Principe</string>
+			<string>Saudi Arabia</string>
+			<string>Senegal</string>
+			<string>Serbia</string>
+			<string>Seychelles</string>
+			<string>Sierra Leone</string>
+			<string>Singapore</string>
+			<string>Sint Maarten (Dutch part)</string>
+			<string>Slovakia</string>
+			<string>Slovenia</string>
+			<string>Solomon Islands</string>
+			<string>Somalia</string>
+			<string>South Africa</string>
+			<string>South Georgia and the South Sandwich Islands</string>
+			<string>South Sudan</string>
+			<string>Spain</string>
+			<string>Sri Lanka</string>
+			<string>Sudan</string>
+			<string>Suriname</string>
+			<string>Svalbard and Jan Mayen</string>
+			<string>Swaziland</string>
+			<string>Sweden</string>
+			<string>Switzerland</string>
+			<string>Syrian Arab Republic</string>
+			<string>Taiwan, Province of China</string>
+			<string>Tajikistan</string>
+			<string>Tanzania, United Republic of</string>
+			<string>Thailand</string>
+			<string>Timor-Leste</string>
+			<string>Togo</string>
+			<string>Tokelau</string>
+			<string>Tonga</string>
+			<string>Trinidad and Tobago</string>
+			<string>Tunisia</string>
+			<string>Turkey</string>
+			<string>Turkmenistan</string>
+			<string>Turks and Caicos Islands</string>
+			<string>Tuvalu</string>
+			<string>Uganda</string>
+			<string>Ukraine</string>
+			<string>United Arab Emirates</string>
+			<string>United Kingdom</string>
+			<string>United States</string>
+			<string>United States Minor Outlying Islands</string>
+			<string>Uruguay</string>
+			<string>Uzbekistan</string>
+			<string>Vanuatu</string>
+			<string>Venezuela, Bolivarian Republic of</string>
+			<string>Viet Nam</string>
+			<string>Virgin Islands, British</string>
+			<string>Virgin Islands, U.S.</string>
+			<string>Wallis and Futuna</string>
+			<string>Western Sahara</string>
+			<string>Yemen</string>
+			<string>Zambia</string>
+			<string>Zimbabwe</string>
+			<string>Åland Islands</string>
+		</array>
+		<key>Type</key>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<string>afg</string>
+			<string>alb</string>
+			<string>dza</string>
+			<string>asm</string>
+			<string>and</string>
+			<string>ago</string>
+			<string>aia</string>
+			<string>ata</string>
+			<string>atg</string>
+			<string>arg</string>
+			<string>arm</string>
+			<string>abw</string>
+			<string>aus</string>
+			<string>aut</string>
+			<string>aze</string>
+			<string>bhs</string>
+			<string>bhr</string>
+			<string>bgd</string>
+			<string>brb</string>
+			<string>blr</string>
+			<string>bel</string>
+			<string>blz</string>
+			<string>ben</string>
+			<string>bmu</string>
+			<string>btn</string>
+			<string>bol</string>
+			<string>bes</string>
+			<string>bih</string>
+			<string>bwa</string>
+			<string>bvt</string>
+			<string>bra</string>
+			<string>iot</string>
+			<string>brn</string>
+			<string>bgr</string>
+			<string>bfa</string>
+			<string>bdi</string>
+			<string>khm</string>
+			<string>cmr</string>
+			<string>can</string>
+			<string>cpv</string>
+			<string>cym</string>
+			<string>caf</string>
+			<string>tcd</string>
+			<string>chl</string>
+			<string>chn</string>
+			<string>cxr</string>
+			<string>cck</string>
+			<string>col</string>
+			<string>com</string>
+			<string>cog</string>
+			<string>cod</string>
+			<string>cok</string>
+			<string>cri</string>
+			<string>hrv</string>
+			<string>cub</string>
+			<string>cuw</string>
+			<string>cyp</string>
+			<string>cze</string>
+			<string>civ</string>
+			<string>dnk</string>
+			<string>dji</string>
+			<string>dma</string>
+			<string>dom</string>
+			<string>ecu</string>
+			<string>egy</string>
+			<string>slv</string>
+			<string>gnq</string>
+			<string>eri</string>
+			<string>est</string>
+			<string>eth</string>
+			<string>flk</string>
+			<string>fro</string>
+			<string>fji</string>
+			<string>fin</string>
+			<string>fra</string>
+			<string>guf</string>
+			<string>pyf</string>
+			<string>atf</string>
+			<string>gab</string>
+			<string>gmb</string>
+			<string>geo</string>
+			<string>deu</string>
+			<string>gha</string>
+			<string>gib</string>
+			<string>grc</string>
+			<string>grl</string>
+			<string>grd</string>
+			<string>glp</string>
+			<string>gum</string>
+			<string>gtm</string>
+			<string>ggy</string>
+			<string>gin</string>
+			<string>gnb</string>
+			<string>guy</string>
+			<string>hti</string>
+			<string>hmd</string>
+			<string>vat</string>
+			<string>hnd</string>
+			<string>hkg</string>
+			<string>hun</string>
+			<string>isl</string>
+			<string>ind</string>
+			<string>idn</string>
+			<string>irn</string>
+			<string>irq</string>
+			<string>irl</string>
+			<string>imn</string>
+			<string>isr</string>
+			<string>ita</string>
+			<string>jam</string>
+			<string>jpn</string>
+			<string>jey</string>
+			<string>jor</string>
+			<string>kaz</string>
+			<string>ken</string>
+			<string>kir</string>
+			<string>prk</string>
+			<string>kor</string>
+			<string>kwt</string>
+			<string>kgz</string>
+			<string>lao</string>
+			<string>lva</string>
+			<string>lbn</string>
+			<string>lso</string>
+			<string>lbr</string>
+			<string>lby</string>
+			<string>lie</string>
+			<string>ltu</string>
+			<string>lux</string>
+			<string>mac</string>
+			<string>mkd</string>
+			<string>mdg</string>
+			<string>mwi</string>
+			<string>mys</string>
+			<string>mdv</string>
+			<string>mli</string>
+			<string>mlt</string>
+			<string>mhl</string>
+			<string>mtq</string>
+			<string>mrt</string>
+			<string>mus</string>
+			<string>myt</string>
+			<string>mex</string>
+			<string>fsm</string>
+			<string>mda</string>
+			<string>mco</string>
+			<string>mng</string>
+			<string>mne</string>
+			<string>msr</string>
+			<string>mar</string>
+			<string>moz</string>
+			<string>mmr</string>
+			<string>nam</string>
+			<string>nru</string>
+			<string>npl</string>
+			<string>nld</string>
+			<string>ncl</string>
+			<string>nzl</string>
+			<string>nic</string>
+			<string>ner</string>
+			<string>nga</string>
+			<string>niu</string>
+			<string>nfk</string>
+			<string>mnp</string>
+			<string>nor</string>
+			<string>omn</string>
+			<string>pak</string>
+			<string>plw</string>
+			<string>pse</string>
+			<string>pan</string>
+			<string>png</string>
+			<string>pry</string>
+			<string>per</string>
+			<string>phl</string>
+			<string>pcn</string>
+			<string>pol</string>
+			<string>prt</string>
+			<string>pri</string>
+			<string>qat</string>
+			<string>rou</string>
+			<string>rus</string>
+			<string>rwa</string>
+			<string>reu</string>
+			<string>blm</string>
+			<string>shn</string>
+			<string>kna</string>
+			<string>lca</string>
+			<string>maf</string>
+			<string>spm</string>
+			<string>vct</string>
+			<string>wsm</string>
+			<string>smr</string>
+			<string>stp</string>
+			<string>sau</string>
+			<string>sen</string>
+			<string>srb</string>
+			<string>syc</string>
+			<string>sle</string>
+			<string>sgp</string>
+			<string>sxm</string>
+			<string>svk</string>
+			<string>svn</string>
+			<string>slb</string>
+			<string>som</string>
+			<string>zaf</string>
+			<string>sgs</string>
+			<string>ssd</string>
+			<string>esp</string>
+			<string>lka</string>
+			<string>sdn</string>
+			<string>sur</string>
+			<string>sjm</string>
+			<string>swz</string>
+			<string>swe</string>
+			<string>che</string>
+			<string>syr</string>
+			<string>twn</string>
+			<string>tjk</string>
+			<string>tza</string>
+			<string>tha</string>
+			<string>tls</string>
+			<string>tgo</string>
+			<string>tkl</string>
+			<string>ton</string>
+			<string>tto</string>
+			<string>tun</string>
+			<string>tur</string>
+			<string>tkm</string>
+			<string>tca</string>
+			<string>tuv</string>
+			<string>uga</string>
+			<string>ukr</string>
+			<string>are</string>
+			<string>gbr</string>
+			<string>usa</string>
+			<string>umi</string>
+			<string>ury</string>
+			<string>uzb</string>
+			<string>vut</string>
+			<string>ven</string>
+			<string>vnm</string>
+			<string>vgb</string>
+			<string>vir</string>
+			<string>wlf</string>
+			<string>esh</string>
+			<string>yem</string>
+			<string>zmb</string>
+			<string>zwe</string>
+			<string>ala</string>
+		</array>
+	</dict>
+	<dict>
+		<key>CustomNamespaces</key>
+		<string>g</string>
+		<key>Key</key>
+		<string>custom_namespaces</string>
+		<key>Title</key>
+		<string>Custom namespaces (separated with ".")</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<string>g</string>
+		<key>Key</key>
+		<string>default_keyword</string>
+		<key>Title</key>
+		<string>Default keyword</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>Type</key>
+		<string>Separator</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Settings when using with a user account</string>
+		<key>Type</key>
+		<string>Group</string>
+	</dict>
+	<dict>
+		<key>Key</key>
+		<string>user_name</string>
+		<key>Title</key>
+		<string>User name</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<real>0.0</real>
+		<key>Key</key>
+		<string>has_run</string>
+	</dict>
+</array>
+</plist>
